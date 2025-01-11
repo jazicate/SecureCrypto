@@ -1,0 +1,5 @@
+/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/SecureCryptoProject.dir
+/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/TestProject.dir
+/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/test.dir
+/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/edit_cache.dir
+/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/rebuild_cache.dir
