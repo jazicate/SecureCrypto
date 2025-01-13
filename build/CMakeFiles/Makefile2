@@ -54,17 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/jazicate/SecureCryptoProject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jazicate/SecureCryptoProject/build
-=======
-CMAKE_SOURCE_DIR = "/home/jazicate/SecureCryptoProject - Copy"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jazicate/SecureCryptoProject - Copy/build"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -72,24 +65,16 @@ CMAKE_BINARY_DIR = "/home/jazicate/SecureCryptoProject - Copy/build"
 # The main recursive "all" target.
 all: CMakeFiles/SecureCryptoProject.dir/all
 all: CMakeFiles/TestProject.dir/all
-<<<<<<< HEAD
 all: _deps/catch2-build/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: _deps/catch2-build/preinstall
-=======
-.PHONY : all
-
-# The main recursive "preinstall" target.
-preinstall:
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/SecureCryptoProject.dir/clean
 clean: CMakeFiles/TestProject.dir/clean
-<<<<<<< HEAD
 clean: _deps/catch2-build/clean
 .PHONY : clean
 
@@ -109,35 +94,20 @@ _deps/catch2-build/clean:
 .PHONY : _deps/catch2-build/clean
 
 #=============================================================================
-=======
-.PHONY : clean
-
-#=============================================================================
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 # Target rules for target CMakeFiles/SecureCryptoProject.dir
 
 # All Build rule for target.
 CMakeFiles/SecureCryptoProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureCryptoProject.dir/build.make CMakeFiles/SecureCryptoProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureCryptoProject.dir/build.make CMakeFiles/SecureCryptoProject.dir/build
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jazicate/SecureCryptoProject/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target SecureCryptoProject"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target SecureCryptoProject"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : CMakeFiles/SecureCryptoProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SecureCryptoProject.dir/rule: cmake_check_build_system
-<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jazicate/SecureCryptoProject/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SecureCryptoProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jazicate/SecureCryptoProject/build/CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SecureCryptoProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" 0
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : CMakeFiles/SecureCryptoProject.dir/rule
 
 # Convenience name for target.
@@ -156,24 +126,14 @@ CMakeFiles/SecureCryptoProject.dir/clean:
 CMakeFiles/TestProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/build
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jazicate/SecureCryptoProject/build/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target TestProject"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=7,8,9,10,11 "Built target TestProject"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : CMakeFiles/TestProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestProject.dir/rule: cmake_check_build_system
-<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jazicate/SecureCryptoProject/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jazicate/SecureCryptoProject/build/CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" 0
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : CMakeFiles/TestProject.dir/rule
 
 # Convenience name for target.

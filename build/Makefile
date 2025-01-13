@@ -57,17 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/jazicate/SecureCryptoProject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jazicate/SecureCryptoProject/build
-=======
-CMAKE_SOURCE_DIR = "/home/jazicate/SecureCryptoProject - Copy"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jazicate/SecureCryptoProject - Copy/build"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,15 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jazicate/SecureCryptoProject/build/CMakeFiles /home/jazicate/SecureCryptoProject/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jazicate/SecureCryptoProject/build/CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" "/home/jazicate/SecureCryptoProject - Copy/build//CMakeFiles/progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" 0
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : all
 
 # The main clean target
@@ -252,10 +239,7 @@ src/logger.o: src/logger.cpp.o
 # target to build an object file
 src/logger.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureCryptoProject.dir/build.make CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o
-<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/src/logger.cpp.o
-=======
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : src/logger.cpp.o
 
 src/logger.i: src/logger.cpp.i
@@ -264,10 +248,7 @@ src/logger.i: src/logger.cpp.i
 # target to preprocess a source file
 src/logger.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureCryptoProject.dir/build.make CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.i
-<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/src/logger.cpp.i
-=======
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : src/logger.cpp.i
 
 src/logger.s: src/logger.cpp.s
@@ -276,10 +257,7 @@ src/logger.s: src/logger.cpp.s
 # target to generate assembly for a file
 src/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureCryptoProject.dir/build.make CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s
-<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/src/logger.cpp.s
-=======
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : src/logger.cpp.s
 
 src/main.o: src/main.cpp.o

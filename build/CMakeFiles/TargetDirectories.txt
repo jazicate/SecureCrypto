@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /home/jazicate/SecureCryptoProject/build/CMakeFiles/SecureCryptoProject.dir
 /home/jazicate/SecureCryptoProject/build/CMakeFiles/TestProject.dir
 /home/jazicate/SecureCryptoProject/build/CMakeFiles/test.dir
@@ -7,10 +6,3 @@
 /home/jazicate/SecureCryptoProject/build/_deps/catch2-build/CMakeFiles/test.dir
 /home/jazicate/SecureCryptoProject/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
 /home/jazicate/SecureCryptoProject/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir
-=======
-/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/SecureCryptoProject.dir
-/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/TestProject.dir
-/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/test.dir
-/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/edit_cache.dir
-/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/rebuild_cache.dir
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21

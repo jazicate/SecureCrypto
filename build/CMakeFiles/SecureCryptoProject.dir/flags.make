@@ -4,11 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-<<<<<<< HEAD
 CXX_INCLUDES = -I/home/jazicate/SecureCryptoProject/include
-=======
-CXX_INCLUDES = -I"/home/jazicate/SecureCryptoProject - Copy/include"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 
 CXX_FLAGS = -std=gnu++17
 

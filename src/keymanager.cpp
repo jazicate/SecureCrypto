@@ -1,6 +1,5 @@
 #include "keymanager.h"
 #include <openssl/rand.h>
-<<<<<<< HEAD
 #include <openssl/evp.h>
 #include <openssl/err.h>
 #include <stdexcept>
@@ -16,22 +15,11 @@
  */
 std::string KeyManager::generateKey() {
 	// Generate a random 32-byte key for AES-256
-=======
-#include <stdexcept>
-#include <string>
-#include <vector>
-
-#define AES_BLOCK_SIZE 16 
-
-std::string KeyManager::generateKey() {
-	// Generate a random 16-byte key
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 	std::vector<unsigned char> key(AES_BLOCK_SIZE);
 	if (RAND_bytes(key.data(), AES_BLOCK_SIZE) != 1) {
 		throw std::runtime_error("Failed to generate random key.");
 	}
 
-<<<<<<< HEAD
 	return std::string(reinterpret_cast<const char*>(key.data()), AES_BLOCK_SIZE);
 }
 
@@ -51,7 +39,4 @@ std::string KeyManager::deriveKey(const std::string& password, const std::string
 	}
 
 	return std::string(reinterpret_cast<const char*>(key.data()), AES_BLOCK_SIZE);
-=======
-	return std::string(reinterpret_cast<const char *>(key.data()), AES_BLOCK_SIZE);
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 }

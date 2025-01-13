@@ -53,17 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/jazicate/SecureCryptoProject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jazicate/SecureCryptoProject/build
-=======
-CMAKE_SOURCE_DIR = "/home/jazicate/SecureCryptoProject - Copy"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jazicate/SecureCryptoProject - Copy/build"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SecureCryptoProject.dir/depend.make
@@ -77,7 +70,6 @@ include CMakeFiles/SecureCryptoProject.dir/progress.make
 include CMakeFiles/SecureCryptoProject.dir/flags.make
 
 CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: CMakeFiles/SecureCryptoProject.dir/flags.make
-<<<<<<< HEAD
 CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: /home/jazicate/SecureCryptoProject/src/main.cpp
 CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: CMakeFiles/SecureCryptoProject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jazicate/SecureCryptoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o"
@@ -146,76 +138,6 @@ CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.i: cmake_force
 CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jazicate/SecureCryptoProject/src/logger.cpp -o CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s
-=======
-CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: /home/jazicate/SecureCryptoProject\ -\ Copy/src/main.cpp
-CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: CMakeFiles/SecureCryptoProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o -MF CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o.d -o CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o -c "/home/jazicate/SecureCryptoProject - Copy/src/main.cpp"
-
-CMakeFiles/SecureCryptoProject.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureCryptoProject.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jazicate/SecureCryptoProject - Copy/src/main.cpp" > CMakeFiles/SecureCryptoProject.dir/src/main.cpp.i
-
-CMakeFiles/SecureCryptoProject.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureCryptoProject.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jazicate/SecureCryptoProject - Copy/src/main.cpp" -o CMakeFiles/SecureCryptoProject.dir/src/main.cpp.s
-
-CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o: CMakeFiles/SecureCryptoProject.dir/flags.make
-CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o: /home/jazicate/SecureCryptoProject\ -\ Copy/src/encryptor.cpp
-CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o: CMakeFiles/SecureCryptoProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o -MF CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o.d -o CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o -c "/home/jazicate/SecureCryptoProject - Copy/src/encryptor.cpp"
-
-CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jazicate/SecureCryptoProject - Copy/src/encryptor.cpp" > CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.i
-
-CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jazicate/SecureCryptoProject - Copy/src/encryptor.cpp" -o CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.s
-
-CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: CMakeFiles/SecureCryptoProject.dir/flags.make
-CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: /home/jazicate/SecureCryptoProject\ -\ Copy/src/decryptor.cpp
-CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: CMakeFiles/SecureCryptoProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o -MF CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o.d -o CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o -c "/home/jazicate/SecureCryptoProject - Copy/src/decryptor.cpp"
-
-CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jazicate/SecureCryptoProject - Copy/src/decryptor.cpp" > CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.i
-
-CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jazicate/SecureCryptoProject - Copy/src/decryptor.cpp" -o CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.s
-
-CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o: CMakeFiles/SecureCryptoProject.dir/flags.make
-CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o: /home/jazicate/SecureCryptoProject\ -\ Copy/src/keymanager.cpp
-CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o: CMakeFiles/SecureCryptoProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o -MF CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o.d -o CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o -c "/home/jazicate/SecureCryptoProject - Copy/src/keymanager.cpp"
-
-CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jazicate/SecureCryptoProject - Copy/src/keymanager.cpp" > CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.i
-
-CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jazicate/SecureCryptoProject - Copy/src/keymanager.cpp" -o CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.s
-
-CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o: CMakeFiles/SecureCryptoProject.dir/flags.make
-CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o: /home/jazicate/SecureCryptoProject\ -\ Copy/src/logger.cpp
-CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o: CMakeFiles/SecureCryptoProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o -MF CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o.d -o CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o -c "/home/jazicate/SecureCryptoProject - Copy/src/logger.cpp"
-
-CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jazicate/SecureCryptoProject - Copy/src/logger.cpp" > CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.i
-
-CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jazicate/SecureCryptoProject - Copy/src/logger.cpp" -o CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.s
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 
 # Object files for target SecureCryptoProject
 SecureCryptoProject_OBJECTS = \
@@ -228,7 +150,6 @@ SecureCryptoProject_OBJECTS = \
 # External object files for target SecureCryptoProject
 SecureCryptoProject_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
 /home/jazicate/SecureCryptoProject/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o
 /home/jazicate/SecureCryptoProject/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o
 /home/jazicate/SecureCryptoProject/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o
@@ -242,21 +163,6 @@ SecureCryptoProject_EXTERNAL_OBJECTS =
 
 # Rule to build all files generated by this target.
 CMakeFiles/SecureCryptoProject.dir/build: /home/jazicate/SecureCryptoProject/bin/SecureCryptoProject
-=======
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/encryptor.cpp.o
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/build.make
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: /usr/lib/x86_64-linux-gnu/libcrypto.so
-/home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject: CMakeFiles/SecureCryptoProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable \"/home/jazicate/SecureCryptoProject - Copy/bin/SecureCryptoProject\""
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SecureCryptoProject.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-CMakeFiles/SecureCryptoProject.dir/build: /home/jazicate/SecureCryptoProject\ -\ Copy/bin/SecureCryptoProject
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : CMakeFiles/SecureCryptoProject.dir/build
 
 CMakeFiles/SecureCryptoProject.dir/clean:
@@ -264,10 +170,6 @@ CMakeFiles/SecureCryptoProject.dir/clean:
 .PHONY : CMakeFiles/SecureCryptoProject.dir/clean
 
 CMakeFiles/SecureCryptoProject.dir/depend:
-<<<<<<< HEAD
 	cd /home/jazicate/SecureCryptoProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jazicate/SecureCryptoProject /home/jazicate/SecureCryptoProject /home/jazicate/SecureCryptoProject/build /home/jazicate/SecureCryptoProject/build /home/jazicate/SecureCryptoProject/build/CMakeFiles/SecureCryptoProject.dir/DependInfo.cmake "--color=$(COLOR)"
-=======
-	cd "/home/jazicate/SecureCryptoProject - Copy/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jazicate/SecureCryptoProject - Copy" "/home/jazicate/SecureCryptoProject - Copy" "/home/jazicate/SecureCryptoProject - Copy/build" "/home/jazicate/SecureCryptoProject - Copy/build" "/home/jazicate/SecureCryptoProject - Copy/build/CMakeFiles/SecureCryptoProject.dir/DependInfo.cmake" "--color=$(COLOR)"
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 .PHONY : CMakeFiles/SecureCryptoProject.dir/depend
 

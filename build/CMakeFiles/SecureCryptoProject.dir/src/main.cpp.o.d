@@ -1,13 +1,7 @@
 CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: \
-<<<<<<< HEAD
  /home/jazicate/SecureCryptoProject/src/main.cpp \
  /usr/include/stdc-predef.h \
  /home/jazicate/SecureCryptoProject/include/encryptor.h \
-=======
- /home/jazicate/SecureCryptoProject\ -\ Copy/src/main.cpp \
- /usr/include/stdc-predef.h \
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/encryptor.h \
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -122,7 +116,6 @@ CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
-<<<<<<< HEAD
  /home/jazicate/SecureCryptoProject/include/decryptor.h \
  /home/jazicate/SecureCryptoProject/include/keymanager.h \
  /home/jazicate/SecureCryptoProject/include/logger.h \
@@ -171,8 +164,3 @@ CMakeFiles/SecureCryptoProject.dir/src/main.cpp.o: \
  /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h
-=======
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/decryptor.h \
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/keymanager.h \
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/logger.h
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21

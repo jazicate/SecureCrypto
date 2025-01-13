@@ -1,13 +1,7 @@
 CMakeFiles/SecureCryptoProject.dir/src/logger.cpp.o: \
-<<<<<<< HEAD
  /home/jazicate/SecureCryptoProject/src/logger.cpp \
  /usr/include/stdc-predef.h \
  /home/jazicate/SecureCryptoProject/include/logger.h \
-=======
- /home/jazicate/SecureCryptoProject\ -\ Copy/src/logger.cpp \
- /usr/include/stdc-predef.h \
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/logger.h \
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

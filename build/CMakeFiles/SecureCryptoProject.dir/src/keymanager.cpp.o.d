@@ -1,13 +1,7 @@
 CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o: \
-<<<<<<< HEAD
  /home/jazicate/SecureCryptoProject/src/keymanager.cpp \
  /usr/include/stdc-predef.h \
  /home/jazicate/SecureCryptoProject/include/keymanager.h \
-=======
- /home/jazicate/SecureCryptoProject\ -\ Copy/src/keymanager.cpp \
- /usr/include/stdc-predef.h \
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/keymanager.h \
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -160,10 +154,7 @@ CMakeFiles/SecureCryptoProject.dir/src/keymanager.cpp.o: \
  /usr/include/openssl/bnerr.h /usr/include/openssl/objects.h \
  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
  /usr/include/openssl/asn1err.h /usr/include/openssl/objectserr.h \
-<<<<<<< HEAD
  /usr/include/openssl/err.h /usr/include/openssl/lhash.h \
-=======
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
  /usr/include/c++/13/stdexcept /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \

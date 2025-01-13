@@ -1,13 +1,7 @@
 CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: \
-<<<<<<< HEAD
  /home/jazicate/SecureCryptoProject/src/decryptor.cpp \
  /usr/include/stdc-predef.h \
  /home/jazicate/SecureCryptoProject/include/decryptor.h \
-=======
- /home/jazicate/SecureCryptoProject\ -\ Copy/src/decryptor.cpp \
- /usr/include/stdc-predef.h \
- /home/jazicate/SecureCryptoProject\ -\ Copy/include/decryptor.h \
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -159,7 +153,6 @@ CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: \
  /usr/include/openssl/bnerr.h /usr/include/openssl/objects.h \
  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
  /usr/include/openssl/asn1err.h /usr/include/openssl/objectserr.h \
-<<<<<<< HEAD
  /usr/include/openssl/pem.h /usr/include/openssl/x509.h \
  /usr/include/openssl/buffer.h /usr/include/openssl/buffererr.h \
  /usr/include/openssl/ec.h /usr/include/string.h /usr/include/strings.h \
@@ -172,8 +165,6 @@ CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: \
  /usr/include/openssl/pkcs7err.h /usr/include/openssl/http.h \
  /usr/include/openssl/conf.h /usr/include/openssl/conferr.h \
  /usr/include/openssl/conftypes.h /usr/include/openssl/pemerr.h \
-=======
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
  /usr/include/c++/13/stdexcept /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
@@ -182,8 +173,4 @@ CMakeFiles/SecureCryptoProject.dir/src/decryptor.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cstring \
-<<<<<<< HEAD
  /usr/include/openssl/err.h
-=======
- /usr/include/string.h /usr/include/strings.h
->>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
