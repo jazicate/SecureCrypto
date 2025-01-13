@@ -46,6 +46,7 @@
     "ostream": "cpp",
     "streambuf": "cpp",
     "cinttypes": "cpp",
+<<<<<<< HEAD
     "typeinfo": "cpp",
     "bitset": "cpp",
     "charconv": "cpp",
@@ -67,5 +68,8 @@
     "stop_token": "cpp",
     "thread": "cpp",
     "variant": "cpp"
+=======
+    "typeinfo": "cpp"
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
   }
 }

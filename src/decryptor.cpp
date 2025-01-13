@@ -1,5 +1,6 @@
 #include "decryptor.h"
 #include <openssl/evp.h>
+<<<<<<< HEAD
 #include <openssl/pem.h>
 #include <openssl/rsa.h>
 #include <stdexcept>
@@ -27,6 +28,21 @@ std::string Decryptor::decrypt(const std::string &ciphertext, const std::string 
 
 	// Initialize OpenSSL (if needed for older versions)
 	OpenSSL_add_all_algorithms();
+=======
+#include <stdexcept>
+#include <vector>
+#include <cstring>  // For memset
+
+#define AES_BLOCK_SIZE 16
+
+std::string Decryptor::decrypt(const std::string &ciphertext, const std::string &key) {
+	if (key.size() != AES_BLOCK_SIZE) {
+		throw std::invalid_argument("Key length must be 16 bytes.");
+	}
+
+	// Initialize OpenSSL (if needed for older versions)
+	OpenSSL_add_all_algorithms();  // Ensure OpenSSL is initialized for cipher algorithms
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 
 	// Create and initialize the context for decryption
 	EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
@@ -34,8 +50,13 @@ std::string Decryptor::decrypt(const std::string &ciphertext, const std::string 
 		throw std::runtime_error("Failed to create EVP context.");
 	}
 
+<<<<<<< HEAD
 	// Initialize decryption with AES-256 in ECB mode
 	if (EVP_DecryptInit_ex(ctx, EVP_aes_256_ecb(), nullptr, reinterpret_cast<const unsigned char*>(key.c_str()), nullptr) != 1) {
+=======
+	// Initialize decryption with AES-128 in ECB mode
+	if (EVP_DecryptInit_ex(ctx, EVP_aes_128_ecb(), nullptr, reinterpret_cast<const unsigned char*>(key.c_str()), nullptr) != 1) {
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 		EVP_CIPHER_CTX_free(ctx);
 		throw std::runtime_error("Failed to initialize decryption.");
 	}
@@ -43,10 +64,17 @@ std::string Decryptor::decrypt(const std::string &ciphertext, const std::string 
 	// Convert the ciphertext string to a vector of unsigned chars for decryption
 	std::vector<unsigned char> cipherData(ciphertext.begin(), ciphertext.end());
 	size_t cipherLength = cipherData.size();
+<<<<<<< HEAD
 
 	// Allocate space for the plaintext (same size as ciphertext)
 	std::vector<unsigned char> plaintext(cipherLength);
 
+=======
+	
+	// Allocate space for the plaintext (same size as ciphertext)
+	std::vector<unsigned char> plaintext(cipherLength);
+	
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 	int len = 0;
 	if (EVP_DecryptUpdate(ctx, plaintext.data(), &len, cipherData.data(), cipherLength) != 1) {
 		EVP_CIPHER_CTX_free(ctx);
@@ -75,4 +103,8 @@ std::string Decryptor::decrypt(const std::string &ciphertext, const std::string 
 	}
 
 	return decrypted;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21

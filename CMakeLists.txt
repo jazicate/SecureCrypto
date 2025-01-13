@@ -29,6 +29,7 @@ target_include_directories(SecureCryptoProject PRIVATE include)
 find_package(OpenSSL REQUIRED)
 target_link_libraries(SecureCryptoProject PRIVATE OpenSSL::Crypto)
 
+<<<<<<< HEAD
 
 # Optional: Enable testing if you have tests
 enable_testing()
@@ -55,4 +56,15 @@ target_include_directories(TestProject PRIVATE include)
 # Link OpenSSL and Catch2 libraries for the test project
 target_link_libraries(TestProject PRIVATE OpenSSL::Crypto Catch2::Catch2)
 # Add a test to be run with CTest (optional)
+=======
+# Optional: Enable testing if you have tests
+enable_testing()
+add_executable(TestProject 
+	tests/test.cpp 
+	src/encryptor.cpp 
+	src/decryptor.cpp 
+	src/keymanager.cpp)
+target_include_directories(TestProject PRIVATE include)
+target_link_libraries(TestProject PRIVATE OpenSSL::Crypto)
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
 add_test(NAME TestProject COMMAND TestProject)

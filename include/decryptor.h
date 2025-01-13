@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef DECRYPTOR_H
 #define DECRYPTOR_H
 
@@ -11,3 +12,12 @@ public:
 };
 
 #endif
+=======
+#pragma once
+#include <string>
+
+class Decryptor {
+public:
+	static std::string decrypt(const std::string &ciphertext, const std::string &key);
+};
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21

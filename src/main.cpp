@@ -2,6 +2,7 @@
 #include "decryptor.h"
 #include "keymanager.h"
 #include "logger.h"
+<<<<<<< HEAD
 #include <openssl/rand.h>
 #include <vector>
 #include <stdexcept>
@@ -52,3 +53,15 @@ int main() {
 	
 	return 0;
 }
+=======
+
+int main() {
+	Logger::log("SecureCryptoProject Started.");
+	std::string plaintext = "Hello, Secure World!";
+	std::string key = KeyManager::generateKey();
+	std::string encrypted = Encryptor::encrypt(plaintext, key);
+	std::string decrypted = Decryptor::decrypt(encrypted, key);
+	Logger::log("Decrypted text: " + decrypted);
+	return 0;
+}
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21

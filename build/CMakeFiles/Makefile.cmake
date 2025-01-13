@@ -7,11 +7,18 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+<<<<<<< HEAD
   "/home/jazicate/SecureCryptoProject/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "_deps/catch2-src/CMakeLists.txt"
+=======
+  "/home/jazicate/SecureCryptoProject - Copy/CMakeLists.txt"
+  "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.28.3/CMakeSystem.cmake"
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -24,15 +31,21 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake"
   "/usr/share/cmake-3.28/Modules/FetchContent.cmake"
   "/usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in"
   "/usr/share/cmake-3.28/Modules/FindGit.cmake"
+=======
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
   "/usr/share/cmake-3.28/Modules/FindOpenSSL.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
+=======
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
@@ -49,9 +62,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "_deps/catch2-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/catch2-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+=======
+  "CMakeFiles/CMakeDirectoryInformation.cmake"
+>>>>>>> 84501201364922e8ffda41cbc00677c708e74c21
   )
 
 # Dependency information for all targets:
