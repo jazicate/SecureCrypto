@@ -24,7 +24,7 @@ Before building the project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/SecureCryptoProject.git
+git clone https://github.com/jazicate/SecureCryptoProject.git
 cd SecureCryptoProject
 ```
 
