@@ -1,5 +1,7 @@
 # SecureCrypto
 
+[![CI](https://github.com/jazicate/SecureCrypto/actions/workflows/ci.yml/badge.svg)](https://github.com/jazicate/SecureCrypto/actions/workflows/ci.yml)
+
 `securecrypto` is a small C++ command-line tool for encrypting files and directories with a password.
 
 It uses:
@@ -11,7 +13,6 @@ It uses:
 The code is in no-man's-land between demo and real utility: it is much better than the original ECB string example, but it is still intentionally small and easy to read.
 
 ## Commands
-
 ```bash
 securecrypto encrypt --in <file|dir> --out <file|dir> [--password <secret>]
 securecrypto decrypt --in <file|dir> --out <file|dir> [--password <secret>]
@@ -21,7 +22,6 @@ securecrypto inspect --in <file>
 If `--password` is omitted, the tool prompts on the terminal. `encrypt` asks for confirmation; `decrypt` does not.
 
 ## What It Actually Does
-
 - Encrypts a single file to a single output file
 - Decrypts a single encrypted file to a single output file
 - Recursively encrypts directory trees
@@ -36,11 +36,9 @@ For directory mode:
 - relative paths are preserved under the output directory
 
 ## Envelope Layout
-
 Each encrypted file starts with a small header, followed by ciphertext.
 
 Header fields:
-
 - magic bytes: `SCRYPT01`
 - format version
 - plaintext size
@@ -53,9 +51,7 @@ Header fields:
 The `inspect` command prints those fields without decrypting the file.
 
 ## Build
-
 Requirements:
-
 - C++17 compiler
 - CMake 3.20+
 - OpenSSL development files
@@ -80,7 +76,6 @@ cmake --build build
 ```
 
 ## Usage
-
 Encrypt a file:
 
 ```bash
@@ -112,7 +107,6 @@ Decrypt it back:
 ```
 
 ## Tests
-
 The test target uses Catch2 and currently covers:
 
 - single-file round trips
@@ -131,7 +125,6 @@ ctest --test-dir build --output-on-failure
 ```
 
 ## Limitations
-
 This is still a small tool. Notable gaps:
 
 - no Windows password prompt support
